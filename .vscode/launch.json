@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Debug fiesenheld-swift",
+            "program": "${workspaceFolder:fiesenheld-swift}/.build/debug/fiesenheld-swift",
+            "args": [],
+            "cwd": "${workspaceFolder:fiesenheld-swift}",
+            "preLaunchTask": "swift: Build Debug fiesenheld-swift"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Release fiesenheld-swift",
+            "program": "${workspaceFolder:fiesenheld-swift}/.build/release/fiesenheld-swift",
+            "args": [],
+            "cwd": "${workspaceFolder:fiesenheld-swift}",
+            "preLaunchTask": "swift: Build Release fiesenheld-swift"
+        }
+    ]
+}
